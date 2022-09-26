@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Ajit</title>
+    <link rel="shortcut icon" type="image" href="images/deer.png">    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="menu-btn"></div>
+<!-- theme toggler  -->
+
+<div id="theme-toggler" class="fas fa-moon"></div>
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+
+    <form action="https://your@isp.io/f/xzboware" method="POST" id="my-form"> 
+    <!--<form action="https://formsubmit.co/ajit.exu@gmail.com" method="POST" id="my-form" enctype="multipart/form-data">-->
+        <input type="text" placeholder="Name" id="name" name="Name" required class="box">
+        <input type="tel" placeholder="Phone" name="Phone" id="phone" pattern="[0-9]{10}" maxlength="10" minlength="10" required class="box">
+        <input type="email" placeholder="Email" id="email" name="Email" required class="box">
+        <input type="text" placeholder="Subject" name="Subject" id="subject" required class="box">
+        <textarea class="box" cols="30" rows="10" placeholder="Message.." name="Massage" id="massage" required></textarea>
+       <!-- <input type="file" name="attachment" accept="image/png, image/jpeg"> -->
+        <input type="submit" value="send message" class="btn">
+    </form>
+      <div id="status"></div>
+
+</section>
+<script type="text/javascript" src="js/script2.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!-- contact section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
